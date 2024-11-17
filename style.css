@@ -205,6 +205,10 @@ a{
     display: none;
    }
 
+   .about{
+    margin-top: 0;
+   }
+
    .content{
     display: flex;
     justify-content: center;
