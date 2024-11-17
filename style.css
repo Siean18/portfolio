@@ -1,0 +1,253 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(50 49 57);
+}
+
+.container{
+    background-color: rgba(5, 5, 5, 0.442);
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container a:hover{
+    color: #efc45d;
+}
+
+.container .header .right a{
+    margin-right: 10px;
+}
+
+.foto img{
+    border-radius: 20px;
+    width: 500px;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    color: white;
+    padding-left: 20px;
+}
+
+.paper{
+    background-color: #696969;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.nama-kuning{
+    color: #efc45d;
+    font-size: 30px;
+}
+
+.desc a{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #efc45d;
+}
+
+.desc a:hover{
+    background-color: #efc45d;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.active{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #efc45d;
+}
+
+.active:hover{
+    background-color: #efc45d;
+    color: white !important;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #efc45d;
+}
+.contact{
+    margin-top: 30px;
+    display: flex;
+}
+
+.instagram, .linked-in, .github, .gitlab{
+    margin-right: 5px;
+}
+
+.about{
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    background-color: rgba(5, 5, 5, 0.442);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text-gold{
+    color: #efc45d;
+}
+
+.about-head{
+    text-align: center;
+}
+
+.about-content{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.my-skills{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.skills-content{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: rgba(5, 5, 5, 0.442);
+    width: 100px;
+    height: 100px;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .icon i{
+    font-size: 50px;
+}
+
+.card .name{
+    margin-top: 5vh;
+}
+
+.jarak{
+    margin: 2vh;
+}
+
+.card:hover{
+    background-color: #efc45d;
+    
+}
+
+.card .name{
+    font-weight: bold;
+}
+
+
+@media (max-width: 480px) {
+   .foto img{
+    width: 180px;
+   }
+   
+
+   .contact{
+    display: flex;
+   }
+
+   .desc a{
+    padding: 15px;
+   }
+
+   .i-am{
+    display: none;
+   }
+
+   .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .kegiatan{
+    /* margin-top: -20px; */
+   }
+
+   .about-content{
+    text-align: justify;
+   }
+
+   .desc{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .nama-kuning{
+    font-size: 20px;
+   }
+
+   .contact{
+    /* margin-top: 5px; */
+    display: flex;
+   }
+
+   .instagram, .linked-in, .github, .gitlab{
+        margin-right: 10px;
+        display: flex;
+    }
+
+    .instagram i, .linked-in i, .github i, .gitlab i{
+        font-size: 40px;
+    }
+
+    .my-skills{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
