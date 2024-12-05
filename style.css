@@ -956,7 +956,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #1f2937;
+    background: rgb(0, 123, 255);
     padding: 2rem 0;
     margin-top: 4rem;
 }
@@ -982,12 +982,12 @@ body {
 }
 
 .social-links a:hover {
-    color: #2563eb;
+    color: #ffffff;
     transform: translateY(-3px);
 }
 
 .copyright {
-    color: #9ca3af;
+    color: #ffffff;
     font-size: 0.875rem;
 }
 
