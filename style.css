@@ -780,6 +780,26 @@ body {
     }
 }
 
+/* Download Button */
+.download-btn {
+    background-color: #007bff;
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border: 2px solid #007bff;
+}
+
+.download-btn:hover {
+    background-color: transparent;
+    color: #007bff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
 /* Footer */
 .footer {
     background: #1f2937;
